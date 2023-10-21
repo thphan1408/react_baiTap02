@@ -1,0 +1,36 @@
+.bgGlasses {
+  width: 100%;
+  height: 100vh;
+  background: url('./images/background.jpg') no-repeat center center;
+}
+
+.glassesChange {
+  width: 100%;
+}
+
+.glassesChange img {
+  width: 60%;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+}
+
+.testGlasses {
+  width: 100%;
+  position: relative;
+}
+
+.testGlasses .glasses {
+  width: 100%;
+}
+
+.testGlasses .glasses img {
+  width: 55%;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+}
